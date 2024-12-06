@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="KEqI9Xp7b6G898SlKosk">
+    <mxGraphModel dx="1434" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NY6U5Fp8tnFILcgl7ixG-1" target="NY6U5Fp8tnFILcgl7ixG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-1" value="C programma met data&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NY6U5Fp8tnFILcgl7ixG-2" target="NY6U5Fp8tnFILcgl7ixG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-2" value="MQTT 1&lt;div&gt;topic: ...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NY6U5Fp8tnFILcgl7ixG-4" target="NY6U5Fp8tnFILcgl7ixG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-4" value="Read data from MQTT 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NY6U5Fp8tnFILcgl7ixG-6" target="NY6U5Fp8tnFILcgl7ixG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-6" value="Process the data following the task&lt;div&gt;Min, Max, Avg..&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="525" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6U5Fp8tnFILcgl7ixG-8" value="Put the processed data in a txt file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
